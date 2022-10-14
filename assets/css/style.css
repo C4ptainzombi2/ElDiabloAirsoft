@@ -1,0 +1,58 @@
+body{
+    background-color:darkslategray;
+}
+.Banniere {
+    display: flexbox;
+    font-size: 50px;
+    color: crimson;
+    font-style: italic;
+    text-align: center;
+    background-color: black ;
+} 
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover{
+    font-size: 28px;
+    color:orange;
+    border-bottom: 2px solid crimson;
+}
+.section1{
+    margin-top: 0px;
+    padding-top: 1px;
+    width: auto;
+    background-color: rgb(211, 17, 17);
+    display: flexbox;
+    border: 3px solid black;
+    width: auto;
+    height: 350px;
+}
+.Presentation{
+    display: flexbox;
+    text-align: center;
+}
