@@ -53,6 +53,40 @@ nav a:hover{
     height: 350px;
 }
 .Presentation{
-    display: flexbox;
+    align-self: center;
     text-align: center;
+}
+.staff{
+    list-style-type: none;
+}
+.staff2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style-type: none; 
+    
+}
+.staff2 #anthony{
+    border: 4px inset blue;
+    width: 115px;
+    text-align: center;
+}
+.staff2 .Alexy{
+    border : 4px inset blue;
+    width: 110px;
+    text-align: center;
+}
+.staff .Charles{
+    border : 4px inset blue;
+    width: 110px;
+    text-align: center;
+}
+.staff .Remi{
+    border: 4px inset blue;
+    width: 110px;
+    height: 130px;
+    text-align: center;
+}
+img{
+    width: 110px;
 }
