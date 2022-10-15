@@ -2,7 +2,7 @@ body{
     background-color:darkslategray;
 }
 .Banniere {
-    display: flexbox;
+    display: flex;
     font-size: 50px;
     color: crimson;
     font-style: italic;
@@ -30,7 +30,7 @@ nav ul::after{
     clear: both;
 }
 nav a{
-    font-size: 25px;
+    font-size: 15px;
     display: block;
     text-decoration: none;
     color: white;
@@ -38,9 +38,9 @@ nav a{
     padding: 10px 0px;
 }
 nav a:hover{
-    font-size: 28px;
+    font-size: 16px;
     color:orange;
-    border-bottom: 2px solid crimson;
+    border-bottom: 1px solid crimson;
 }
 .section1{
     margin-top: 0px;
@@ -50,7 +50,7 @@ nav a:hover{
     display: flexbox;
     border: 3px solid black;
     width: auto;
-    height: 350px;
+    height: 100%;
 }
 .Presentation{
     align-self: center;
@@ -62,7 +62,7 @@ nav a:hover{
 .staff2{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     list-style-type: none; 
     
 }
